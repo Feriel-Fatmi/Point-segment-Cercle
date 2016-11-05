@@ -17,7 +17,7 @@ public class Cercle {
 		this(new Point(), rayon);
 	}
 
-	public float périmètre(double rayon) {
+	public double périmètre(double rayon) {
 
 		return  (2 * rayon * Math.PI);
 	}
@@ -27,7 +27,6 @@ public class Cercle {
 		return new Cercle(centre.symertie(), rayon);
 	}
 
-	@Override
 	public String toString() {
 		return " rayon=" + rayon + ", centre=" + centre.toString() + "";
 	}
