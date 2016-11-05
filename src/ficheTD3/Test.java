@@ -39,7 +39,7 @@ public class Test {
 		System.out.println("Crée deux segment dans l'espace ");
 		Segment AB = new Segment(A, B);
 		Segment BC = new Segment(B, C);
-		segment EF = new Segment(E,F);
+		Segment EF = new Segment(E,F);
 
 		System.out.println("Le segment AB =" + AB.distance(A, B));
 		System.out.println("Le segment BC =" + BC.distance(B, C));
